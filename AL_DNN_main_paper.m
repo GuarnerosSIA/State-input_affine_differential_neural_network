@@ -82,7 +82,7 @@ max_noise = 10;
 S =  randi(max_noise,[36,1]);
 
 % Simulation of the Stewart platform
-sim('sm_stewart_platform_Identifier.slx')
+sim('sm_stewart_platform_Identifier_2021Version_desktop.slx')
 
 X = systemStates.Data;
 % X is the system model
